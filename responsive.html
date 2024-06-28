@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       
+        body{
+            height: 140vh;
+            background-image: url(wednesday.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: right center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+        nav{
+            background-color: black;
+            padding: 10px;
+            align-items: center;
+
+        }
+        nav ul{
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        nav li{
+            height: 50px;
+            align-items: center;
+        }
+        nav a{
+            height: 100%;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+        .join{
+            background-color: rgb(218, 20, 20);
+            width: 140px;
+            height: 38px;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            font-weight: bold;
+            margin-left: 10px;
+
+}
+.join:hover{
+    background-color: rgb(238, 34, 34);   
+
+}
+.Sign{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border-color: rgb(152, 147, 147);
+    border-style:groove;
+    font-weight: bold;
+    height: 38px;
+    width: 100px;
+    margin-left: 10px;
+}
+.Sign:hover{
+    background-color: rgb(86, 83, 83);
+}
+nav li:first-child{
+    margin-right: auto;
+}
+nav p{
+    margin-top: 15px;
+}
+.life{
+    padding-left: 60px;
+}
+
+@media screen and (max-width:768px){
+    nav p{
+        display: none;
+    }
+    .life{
+        margin-top: 200px;
+        padding-left: 20px;
+    }
+    body{
+        background-size: 450px 350px;
+        background-position: top;
+    }
+
+    
+   
+    
+}
+   </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#"><img style="height: 45px; width: 120px;" src="https://fontmeme.com/permalink/221130/509abc6ce35d6779bb820f67cf7913d8.png"></a></li>
+            <li><p style="color: rgb(240, 227, 227);">UNLIMITED TV SHOWS AND SERIES</p></li>
+            <li><a href="#"><button class="join">Join</button></a></li>
+            <li><a href="#"><button class="Sign">Sign In</button></a></li>
+        </ul>
+    </nav>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+   
+    <div class="life">
+    <img style="width: 450px;height: 100px;" src="https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABdxlUl_M2h5ERjFfyvuhRn2v-Az7Pwe_KxG_M9HSWbURJYrAs9pvqDPa3B3UPTCn3K_xS17OhTYmOca-lM4XAN7y5RogX7xYSfhIkk21Sgt9wNuZlqUFsCVdSD-tT7udzadO5zDd2hkAMGYPQJV9kbYoTY6n6u5X4YgGHG6AStY-EUePkvpO6A.png?r=50a">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="color: rgb(254, 254, 254);font-weight: 500;font-size:x-large;">Wednesday</p><br>
+    <p style="color: rgb(194, 184, 184);">2022 | Maturity Rating:U/A 13+ | 1 Season | Fantasy</p><br><br><br><br>
+    <p style="color: white;">Smart, sarcastic and a little dead inside, Wednesday Addams<br> investigates a murder spree while making new friends — and foes — <br>at Nevermore Academy.s</p><br>
+    <p style="color: rgb(245, 242, 242);"><span style="color: rgb(194, 184, 184);">Starring:</span>Jenna Ortega, Gwendoline Christie, Riki Lindhome
+        <br><span style="color: rgb(194, 184, 184);">Creators:</span>Alfred Gough, Miles Millar</p>
+</div>
+    
+   
+</body>
+</html>
